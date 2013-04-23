@@ -1,0 +1,10 @@
+.rod {
+    overflow: hidden;
+    *text-indent: -999em;/*hide text for IE6/7*/
+}
+.rod:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}/*hide text by html5*/
